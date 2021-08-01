@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "View";
+}
+<h3>@ViewBag.Message</h3>
+
+<h4>This is the SecondController View</h4>
+
+<p><strong>Welcome to the SecondController</strong> <br />
+    Add some text here and more.</p>
+
+<div class="bg-danger">
+    <p>Click on this button</p><br />
+    @Html.ActionLink("Go to About", "About", "Home", null, new { @class = "btn btn-primary btn-large" })
+    @Html.ActionLink("Index 2", "Index", "Second", null, new { @class = "btn btn-primary btn-large" })
+    <p>Hallo Welt!</p>
+</div>
+
